@@ -13,7 +13,7 @@ a {
 .background {
     width: 100%;
     height: 100vh;
-    background-image: url('main.bg.jpg');
+    background-image: url('https://cdn.openaod.org/img/main.bg.jpg');
     background-size: 1920px;
     color: white;
 }
@@ -59,7 +59,7 @@ footer {
 .vercel {
     width: 500px;
     height: 300px;
-    background-image: url("vercel-logotype-dark.png");
+    background-image: url("https://cdn.openaod.org/img/vercel-logotype-dark.png");
 }
 
 .sponsorship-container {
