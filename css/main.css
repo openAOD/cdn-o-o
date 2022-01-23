@@ -1,0 +1,214 @@
+a {
+    text-decoration: none;
+}
+
+.header {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url('main.bg.jpg');
+    background-size: 1920px;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    width: 60rem;
+}
+
+.copyright {
+    font-size: 1.5rem;
+}
+
+.sponsor {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: fit-content;
+}
+
+.sponsor-class {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.footer-class {
+    padding: 2rem;
+}
+
+.vercel {
+    width: 500px;
+    height: 300px;
+    background-image: url("vercel-logotype-dark.png");
+}
+
+.sponsorship-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-container {
+    margin-top: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.head1 {
+    font-size: 3.5rem;
+}
+
+.head2 {
+    font-size: 2.5rem;
+}
+
+.content {
+    font-size: 1.3rem;
+    max-width: 50rem;
+}
+
+.section-container {
+    padding: 1rem;
+}
+
+.logo {
+    padding: 1rem 2.5rem;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav > div {
+    padding: 0.5rem;
+    transition-duration: 0.7s;
+}
+
+nav > div:hover {
+    color: #150140;
+}
+
+nav > div.active {
+    font-weight: 700;
+}
+
+.btn-p {
+    margin: 0.25rem;
+    padding: 0.5rem 1rem;
+    background-image: linear-gradient(#F21DB9, #7F1C8C); 
+    color: white;
+    transition-duration: 0.7s;
+    border-radius: 1rem;
+}
+
+.btn-p:hover {
+    opacity: 0.8;
+}
+
+.btn-s {
+    margin: 0.25rem;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(#F21DB9, #7F1C8C); 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.btn-set {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.justifycc {
+    justify-content: center;
+}
+
+.banner {
+    margin: 1rem;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}
+
+.banner > div {
+    padding: 0.5rem;
+}
+
+/* sm class */
+@media (min-width: 640px) { 
+    .banner {
+        padding: 1rem;
+    }
+}
+
+/* md class */
+@media (min-width: 768px) { 
+    .header {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        flex-direction: row;
+    }
+
+    .btn-set {
+        flex-direction: row;
+    }
+
+    .hero-container {
+        margin-top: 35vh;
+    }
+
+    nav > div {
+        padding: 1rem;
+    }
+
+    .section-container {
+        padding: 2rem 5rem;
+    }
+
+    .sponsor {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .sponsor-class {
+        flex-direction: row;
+    }
+
+    footer {
+        flex-direction: row;
+        padding: 3rem 6rem;
+    }
+}
+
+/* lg class */
+@media (min-width: 1024px) { 
+    .header {
+        padding-left: 8rem;
+        padding-right: 8rem;
+    }
+
+    .banner {
+        padding: 0rem 10rem;
+    }
+}
